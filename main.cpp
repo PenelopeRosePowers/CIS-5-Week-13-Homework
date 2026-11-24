@@ -6,11 +6,17 @@
 
 std::string banner(const std::string& name) {
   // TODO: return "Hello, " + name + "!"
-  return name;
+  return "Hello, " + name + "!";
 }
 
 std::string initials(const std::string& first, const std::string& last) {
   std::string out = "";
+  if (first.size() > 0){
+    out += first[0];
+  }
+  if (last.size() > 0){
+    out += last[0];
+  }
   // TODO: if first.size() > 0, add first[0] to out
   // TODO: if last.size() > 0, add last[0] to out
   return out;
@@ -24,6 +30,9 @@ int main() {
   std::cin >> last;
 
   std::string full = first + " " + last;
+  std::cout << banner(full)<< "\n";
+  std::cout << "Langth: " << full.size() << "\n";
+  std::cout << "Initials: " << initials(first, last) << "\n";
   // TODO: print banner(full)
   // TODO: print "Length: " and full.size()
   // TODO: print "Initials: " and initials(first, last)
