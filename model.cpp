@@ -12,9 +12,15 @@ struct Account {
 
 void printAccount(const Account& a) {
   // TODO: print every field on one line, then "\n"
+  std::cout << a.name << " " << a.balance << "\n";
 }
 
 int main() {
+  Account a1{"Ada", 50.25};
+  Account a2{"Ben", 120.5};
+
+  printAccount(a1);
+  printAccount(a2);
   // TODO: make two records with braces, then print both with your helper
   return 0;
 }
