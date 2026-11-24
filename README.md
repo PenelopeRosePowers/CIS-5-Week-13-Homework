@@ -12,7 +12,8 @@ Work without a working video link is incomplete.
 
 The video is half the grade. Run both programs, then explain why each helper takes `const &` and what your struct's fields hold.
 
-**Your demo:** _add your link here_
+**Your demo:** [screen-capture (23).webm](https://github.com/user-attachments/assets/5a697dbf-627d-4125-9fd0-3f06bc4c2912)
+
 
 ## What to build
 
